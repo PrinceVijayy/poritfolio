@@ -1,0 +1,165 @@
+/*
+COLOR PALETTE
+https://coolors.co/30292f-413f54-5f5aa2-355691-3f4045
+Raisin Black = #ECCBD9
+Independence = #E1EFF6
+Liberty = #97D2FB
+Bdazzeled Blue = #83BCFF
+Onyx = #80FFE8*/
+
+
+/* Global styles
+_______________________________________________________________________
+*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  color:#171B18;/*Almost Black*/
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+q{
+  color: #CDA715;
+}
+img{
+  width:300px;
+}
+.project a{
+  background: #F296E6;
+  color:floralwhite;
+  padding: 8px;
+  text-decoration: underline;
+  border-radius: 4px;
+  display: inline-block;
+}
+a:link{
+  color:floralwhite;
+}
+a:visited{
+  color:floralwhite;
+}
+a:hover{
+  color:gray;
+  text-decoration: none;
+  opacity: 80%;
+}
+a:active{
+  color:#00FFFF;
+}
+h1{
+  font-size: 72px;
+  line-height: 1;
+}
+h2{
+  font-size: 50px;
+  /* display: inline-block; */
+}
+.content-wrap{
+  width: 800px;
+  margin: auto;
+  padding: 60px;
+}
+h1, h2{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin:0;
+}
+/* Profile
+_______________________________________________________________________
+*/
+header{
+  background-color:#1E3888;
+color: #FFFAF0;
+}
+header a{
+  color: yellow;
+  background: none;
+  text-decoration: underline;
+}
+header a:visited{
+  color: yellow;
+}
+header a:hover{
+ color:gray;
+ text-decoration: none;
+}
+header a:active{
+ color:blue;
+}
+header h1{
+  text-align: center;
+}
+header h2{
+  text-align: center;
+}
+/* Projects
+_______________________________________________________________________
+*/
+.project{
+  background: #E1EFF6
+
+}
+.project-item img{
+  float: left;
+  margin-right: 25px;
+}
+.project-item{
+  overflow: hidden;
+}
+
+/* Work Experience
+_______________________________________________________________________
+*/
+.work-experience{
+  background:#97D2FB;
+
+}
+
+
+/* Education
+_______________________________________________________________________
+*/
+.education{
+  background:#83BCFF;
+
+}
+
+/* Contact Info
+_______________________________________________________________________
+*/
+footer{
+  background: #2E5EAA;
+  color: #FFFAF0;
+  text-align: center;
+}
+footer a:link{
+  color: #ffe16b;
+}
+footer a:visited{
+  color: #ffe16b;
+}
+footer a:hover{
+  color:gray;
+  text-decoration: none;
+  opacity: 80%;
+}
+footer a:active{
+  color:#00FFFF;
+}
+.contact-list{
+  display: flex;
+  align-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+.contact-list a{
+  display: inline;
+  padding: 28px;
+}
